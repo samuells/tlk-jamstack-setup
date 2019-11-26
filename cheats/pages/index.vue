@@ -10,13 +10,13 @@
 </template>
 
 <script>
-import Placeholder from '~/components/Placeholder'
-import StoryblokPage from '~/components/StoryblokPage'
+import Placeholder from "~/components/Placeholder";
+import StoryblokPage from "~/components/StoryblokPage";
 
 export default {
   components: {
     Placeholder
   },
   extends: StoryblokPage
-}
+};
 </script>
