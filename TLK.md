@@ -13,6 +13,7 @@ $ yarn add -D storyblok-nuxt
 - add to nuxt.config.js
 
 ```js
+require('dotenv').config()
 const StoryBlokToken = process.env.STORYBLOK_TOKEN
 
 modules: [
