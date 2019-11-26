@@ -6,11 +6,11 @@
 <script>
 /* eslint-disable vue/no-unused-components */
 import StoryblokPage from '~/components/StoryblokPage.vue'
-import Placeholder from '~/components/Placeholder'
+import PageGeneral from '~/components/PageGeneral.vue'
 
 export default {
   components: {
-    Placeholder
+    PageGeneral
   },
   extends: StoryblokPage
 }

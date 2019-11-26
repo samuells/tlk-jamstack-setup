@@ -7,7 +7,7 @@ $ yarn create nuxt-app .
 - create new project on Storyblok
 
 ```bash
-$ yarn add -D storyblok-nuxt
+$ yarn add storyblok-nuxt
 ```
 
 - add to nuxt.config.js
@@ -44,3 +44,19 @@ router: {
 - added pages & components
 
 - deploy to now
+
+```bash
+$ now secrets add sb_token_tlk "token"
+```
+
+```add to package
+"engines": {
+    "node": ">= 10.0.0"
+  },
+```
+
+```bash
+$ now secrets add sb_token_tlk "token"
+```
+
+🤞CROSS FINGERS 🤞

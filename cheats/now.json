@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "tlks-website",
+  "name": "tlk-website",
   "builds": [
     {
       "src": "nuxt.config.js",
@@ -21,14 +21,14 @@
     "env": {
       "NODE_ENV": "production",
       "STORYBLOK_ONLY_PUBLIC": "0",
-      "STORYBLOK_TOKEN": "@sb_token_twim",
+      "STORYBLOK_TOKEN": "@sb_token_tlk",
       "RUN_WITH_SSR": "1"
     }
   },
   "env": {
     "NODE_ENV": "production",
     "STORYBLOK_ONLY_PUBLIC": "0",
-    "STORYBLOK_TOKEN": "@sb_token_twim",
+    "STORYBLOK_TOKEN": "@sb_token_tlk",
     "RUN_WITH_SSR": "1"
   },
   "routes": [
