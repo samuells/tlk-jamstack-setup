@@ -4,11 +4,11 @@
 $ yarn create nuxt-app .
 ```
 
+- create new project on Storyblok
+
 ```bash
 $ yarn add -D storyblok-nuxt
 ```
-
-- create new project on Storyblok
 
 - add to nuxt.config.js
 
@@ -27,5 +27,15 @@ modules: [
 - define the storyblok token in .env
 
 ```
-STORYBLOK_TOKEN='UXn5b738U7Y7wMdhwUTTZQtt'
+STORYBLOK_TOKEN='xxx'
+```
+
+- load storyblok cache - middleware/store/helpers
+
+```nuxt.config.js
+router: {
+    middleware: [
+      'cache-version-loader'
+    ]
+  },
 ```
