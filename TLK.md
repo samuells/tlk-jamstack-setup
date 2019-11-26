@@ -40,3 +40,7 @@ router: {
     ]
   },
 ```
+
+- added pages & components
+
+- deploy to now
