@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "name": "tlks-website",
+  "builds": [
+    {
+      "src": "nuxt.config.js",
+      "use": "@nuxtjs/now-builder",
+      "config": {}
+    }
+  ],
+  "scope": "samuelsnopko",
+  "regions": [
+    "bru1"
+  ],
+  "public": false,
+  "github": {
+    "enabled": false,
+    "silent": true
+  },
+  "build": {
+    "env": {
+      "NODE_ENV": "production",
+      "STORYBLOK_ONLY_PUBLIC": "0",
+      "STORYBLOK_TOKEN": "@sb_token_twim",
+      "RUN_WITH_SSR": "1"
+    }
+  },
+  "env": {
+    "NODE_ENV": "production",
+    "STORYBLOK_ONLY_PUBLIC": "0",
+    "STORYBLOK_TOKEN": "@sb_token_twim",
+    "RUN_WITH_SSR": "1"
+  },
+  "routes": [
+    {
+      "src": "/_nuxt/.+",
+      "headers": {
+        "cache-control": "s-maxage=31536000",
+        "X-Robots-Tag": "none"
+      }
+    },
+    {
+      "src": "/(.*)",
+      "headers": {
+        "X-Robots-Tag": "none"
+      },
+      "dest": "/"
+    }
+  ]
+}
