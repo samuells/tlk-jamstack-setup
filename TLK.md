@@ -56,7 +56,7 @@ $ now secrets add sb_token_tlk "token"
 ```
 
 ```bash
-$ now secrets add sb_token_tlk "token"
+$ now
 ```
 
 🤞CROSS FINGERS 🤞
